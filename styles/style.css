@@ -73,8 +73,7 @@
 
 .header {
   padding: 10px;
-  min-height: 668px;
-  height: 100%;
+  height: 668px;
   width: 100%;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -142,8 +141,7 @@
 
 .content {
   padding: 0 10px 0;
-  max-height: 5355px;
-  height: 100%;
+  height: 5355px;
   width: 100%;
   display: grid;
   gap: 50px;
@@ -200,14 +198,13 @@
 }
 
 .content__gallery-section {
-  max-height: 1400px;
+  height: 1400px;
 }
 
 .content__gallery-container {
   margin-top: 10px;
-  max-height: 1366px;
-  width: 100%;
   height: 100%;
+  width: 100%;
   display: grid;
   gap: 10px;
 }
@@ -219,8 +216,7 @@
 
 .footer {
   padding: 10px;
-  min-height: 668px;
-  height: 100%;
+  height: 668px;
   width: 100%;
 }
 
@@ -262,7 +258,7 @@
 
   .header {
     padding: 0;
-    max-height: 1024px;
+    height: 1024px;
   }
 
   .header__theme-menu {
@@ -288,7 +284,7 @@
 
   .content {
     padding: 0 20px 0;
-    max-height: 3682px;
+    height: 3682px;
     gap: 80px;
   }
 
@@ -304,8 +300,6 @@
 
   .content__gallery-container {
     margin-top: 20px;
-    min-width: 728px;
-    min-height: 780px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, min-content);
     gap: 20px;
@@ -342,14 +336,14 @@
 
   .footer {
     padding: 20px;
-    min-height: 1024px;
+    height: 1024px;
   }
 }
 
 @media (min-width: 1024px) {
   .header,
   .footer {
-    max-height: 768px;
+    height: 768px;
   }
 
   .header__theme-menu {
@@ -371,7 +365,8 @@
   }
 
   .content {
-    max-width: 3352px;
+    height: 3352px;
+    max-width: 1024px;
   }
 
   .content__text-container_columns {
@@ -382,5 +377,9 @@
 
   .content__text-section-title {
     max-width: 315px;
+  }
+
+  .content__gallery-section {
+    height: 1091px;
   }
 }
