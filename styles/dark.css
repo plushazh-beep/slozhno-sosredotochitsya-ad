@@ -36,3 +36,7 @@
   --color__text-section-title: #FF0070;
   --color__text-paragraph: #F1B2CE;
 }
+
+.theme-dark .page .header__theme-decor {
+    display: flex;
+  }
